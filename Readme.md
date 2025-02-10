@@ -85,7 +85,9 @@ node index.js create test-app
 Commit & Push
 
 git add .
+
 git commit -m "Your changes"
+
 git push origin your-branch
 
 Create a Pull Request
