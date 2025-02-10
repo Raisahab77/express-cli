@@ -17,18 +17,12 @@ program
     const answers = await inquirer.prompt([
       {
         type: "list",
-        name: "dbType",
-        message: "Choose your database:",
-        choices: ["MongoDB", "PostgreSQL", "MySQL", "None"],
-      },
-      {
-        type: "confirm",
-        name: "useEJS",
-        message: "Do you want to use EJS as a templating engine?",
-        default: false,
-      },
-    ]);
-
+        name: "language",
+        message: "Choose your project language:",
+        choices: ["TypeScript", "JavaScript"],
+      }
+    ]);    
+    
     createAppStructure(appName, answers);
   });
 

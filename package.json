@@ -1,17 +1,17 @@
 {
-  "name": "express-cli",
+  "name": "express-cli-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI tool to generate Express.js applications",
   "main": "index.js",
   "bin": {
-  "express-cli": "./index.js"
+    "express-cli": "./index.js"
   },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["express", "cli", "generator"],
+  "author": "Vikas Rai",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1",
