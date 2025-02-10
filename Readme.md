@@ -44,8 +44,9 @@ For TypeScript:
 npm run dev  # Runs with ts-node
 npm run build && npm start  # Compiles and runs built JS files
 
-⚡ Project Structure
+## ⚡ Project Structure
 
+```plaintext
 my-app/
  ├── src/
  │   ├── controllers/
@@ -59,6 +60,7 @@ my-app/
  ├── package.json
  ├── tsconfig.json (if TypeScript is selected)
  └── .gitignore
+```
 
 🛠 Contributing
 
@@ -68,7 +70,7 @@ Fork the Repository
 
 Clone your Fork
 
-git clone https://github.com/Raisahab77/express-cli.git
+git clone https://github.com/your-username/express-cli.git
 
 Install Dependencies
 
